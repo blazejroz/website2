@@ -1,48 +1,94 @@
-#contein
-{
+#contein {
     color: aqua;
     font-family: Aria
-        
-    
 }
+
+
 /* Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 /* Global */
-html{
+html {
     min-height: 100%;
     overflow: hidden;
 }
-body{
+
+body {
     height: calc(100vh - 8em);
     padding: 4em;
-    color: rgba(255,255,255,.75);
-    font-family: 'Anonymous Pro', monospace;  
-    background-color: rgb(25,25,25);  
+    color: rgba(255, 255, 255, .75);
+    font-family: 'Anonymous Pro', monospace;
+    background-color: rgb(25, 25, 25);
 }
-.line-1{
+
+.line-1 {
     position: relative;
-    top: 50%;  
+    top: 50%;
     width: 24em;
     margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
+    border-right: 2px solid rgba(255, 255, 255, .75);
     font-size: 180%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);    
+    transform: translateY(-50%);
 }
 
+#stopka {
+    font-family: 'Anonymous Pro', monospace;
+    color: white text-align: center;
+    overflow: hidden;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    position: relative;
+    position: center;
+    text-align: center;
+    clear:both;
+    position: relative;
+    clear: both;
+
+    
+
+
+
+}
+
+
 /* Animation */
-.anim-typewriter{
+.anim-typewriter {
     animation: typewriter 1s steps(44) 0.1s 1 normal both,
         blinkTextCursor 400ms steps(44) infinite normal;
 }
-@keyframes typewriter{
-    from{width: 0;}
-    to{width: 10em;}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 10em;
+    }
 }
-@keyframes blinkTextCursor{
-    from{border-right-color: rgba(255,255,255,.75);}
-    to{border-right-color: transparent;}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
 }
+
+kontener {width: 50px;
+    height: 80px;
+    font-family: Aria
+        text-align: center;
+    position: relative;}
+.dol {position:absolute;bottom: 0px;
+    font-family: 'Anonymous Pro', monospace;
+    text-align: center;
+    text-align:center;
+    display:table-cell;
+     width: 100%; background: text-align: center; height: 10px; 
+}
+
